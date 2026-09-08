@@ -146,8 +146,8 @@ export default function PacientesPage() {
                         : (pacientes.map(paciente => (
                             <article key={paciente.id}>
                                 <strong>{paciente.nome}</strong>
-                                <strong>{paciente.cpf}</strong>
-                                <strong>{paciente.telefone}</strong>
+                                <strong> {paciente.cpf}</strong>
+                                <strong> {paciente.telefone}</strong>
                                 <button type="button" onClick={
                                     () => iniciarEdicao(paciente)}>Editar
                                 </button>
